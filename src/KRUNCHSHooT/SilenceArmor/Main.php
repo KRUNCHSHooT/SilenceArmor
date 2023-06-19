@@ -26,7 +26,6 @@ class Main extends PluginBase {
                 LibTrimArmor::create($item, MaterialType::EMERALD, PatternType::SILENCE);
                 $sender->getInventory()->addItem($item);
             }
-            var_dump($sender->getInventory()->getItemInHand()->nbtSerialize());
             return true;
             
         }
