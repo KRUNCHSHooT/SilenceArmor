@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/KRUNCHSHooT/SilenceArmor
+build-by-default: true
+branches:
+- master
+projects:
+  SilenceArmor:
+    path: ""
+    libs:
+      - src: KRUNCHSHooT/LibTrimArmor/LibTrimArmor
+        version: ^1.0.0
+...
