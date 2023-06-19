@@ -1,0 +1,14 @@
+---
+name: SilenceArmor
+version: 1.0.0
+main: KRUNCHSHooT\SilenceArmor\Main
+api: 5.0.0
+author: KRUNCHSHooT
+commands:
+  trim:
+    description: Trim Armor with Silence Pattern
+    permission: silencearmor.trim.command
+permissions:
+  silencearmor.trim.command:
+    default: op
+...
